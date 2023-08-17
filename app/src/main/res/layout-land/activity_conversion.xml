@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--  //STUDENT NAME: DECLAN ENGLISH
+//STUDENT ID: S2136054  -->
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".ViewmaincurrenciesActivity">
+
+        <TextView
+            android:id="@+id/Convertheading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dip"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:text="Currency Conversion"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/selectedCurrencyText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Convertheading"
+            android:padding="10dip"
+            android:textSize="18sp"
+            android:textStyle="italic"
+            android:gravity="center"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/selectedCurrencyText"
+            android:orientation="horizontal">
+
+            <FrameLayout
+                android:id="@+id/currencyconvertFragment"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center">
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/mapsFragment"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center">
+            </FrameLayout>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</ScrollView>

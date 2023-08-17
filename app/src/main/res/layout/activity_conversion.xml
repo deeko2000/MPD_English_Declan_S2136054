@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--  //STUDENT NAME: DECLAN ENGLISH
+//STUDENT ID: S2136054  -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ViewmaincurrenciesActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/Convertheading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dip"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:text="Currency Conversion"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/selectedCurrencyText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dip"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        android:gravity="center"/>
+
+    <FrameLayout
+        android:id="@+id/currencyconvertFragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center">
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/mapsFragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center">
+    </FrameLayout>
+
+
+</LinearLayout>

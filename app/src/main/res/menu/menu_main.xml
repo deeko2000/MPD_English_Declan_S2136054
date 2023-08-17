@@ -1,0 +1,34 @@
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--  //STUDENT NAME: DECLAN ENGLISH
+//STUDENT ID: S2136054  -->
+    <item
+        android:id="@+id/action_settings1"
+        android:title="Color for strength against GBP"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_settings2"
+        android:title="Green = VERY STRONG"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        android:gravity="center"/>
+    <item
+        android:id="@+id/action_settings3"
+        android:title="Red = VERY WEAK"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        android:gravity="center"/>
+    <item
+        android:id="@+id/action_settings4"
+        android:title="Orange = WEAK"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        android:gravity="center"/>
+    <item
+        android:id="@+id/action_settings5"
+        android:title="Yellow = MODERATE"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        android:gravity="center"/>
+</menu>

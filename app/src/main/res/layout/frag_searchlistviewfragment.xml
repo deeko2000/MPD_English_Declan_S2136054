@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--  //STUDENT NAME: DECLAN ENGLISH
+//STUDENT ID: S2136054  -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/mainlistviewfragment"
+    >
+
+    <ListView android:id="@+id/list"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        >
+    </ListView>
+    <!--You can nest any other views here, and they will be scrollable, but take care of views that have their own scrolling capabilities like ListView -->
+
+
+</RelativeLayout>

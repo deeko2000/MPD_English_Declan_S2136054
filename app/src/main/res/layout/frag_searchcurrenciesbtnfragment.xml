@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--  //STUDENT NAME: DECLAN ENGLISH
+//STUDENT ID: S2136054  -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:id="@+id/searchcurrenciesbtnfragment"
+    >
+
+    <Button
+        android:id="@+id/searchcurrenciesButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Search For Currencies" />
+
+</LinearLayout>
+
+
+
